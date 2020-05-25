@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pic_coms"
+            android:background="@drawable/background"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/schoolName"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:text="Computer Science"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            />
+            <TextView
+                android:id="@+id/numCourses"
+                android:layout_width="0dp"
+                android:layout_weight="0.14"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="13sp"
+                android:textColor="#000"
+                android:layout_marginRight="5dp"
+                android:gravity="end"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/schoolDescription"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="this is school of computer science we do programming and machine learning"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/admission"
+        android:icon="@drawable/admission"
+        android:title="Admission"/>
+    <item
+        android:id="@+id/first_year"
+        android:icon="@drawable/first"
+        android:title="First Year"
+        />
+    <item
+        android:id="@+id/second_year"
+        android:icon="@drawable/second"
+        android:title="Second Year"
+        />
+
+    <item
+        android:id="@+id/third_year"
+        android:icon="@drawable/third"
+        android:title="Third Year"/>
+
+</menu>
